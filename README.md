@@ -1,8 +1,14 @@
 A [Giter8][g8] template for liblings!
 
-## usage
+## Usage
 
-    sbt new libling/libling.g8
+Create the libling
+
+    > sbt new libling/libling.g8
+    
+in the new directory
+
+    > sbt liblingInit
     
 
 ## TODO
