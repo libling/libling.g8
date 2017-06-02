@@ -29,11 +29,11 @@ These things will be copied into a project when the libling is added as a depend
     /libling
         libling metadata, generated
     
-These things are included in the template, but not included by default:
+These things are included in the template, but not included as dependency by default:
 
     build.sbt
     /project
         the ususal sbt stuff
     /test
-        put your tests here
+        your tests are in here
     
