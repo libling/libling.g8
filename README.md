@@ -8,6 +8,7 @@ A [Giter8][g8] template for liblings!
 ## TODO
 * automatically choose sbt-libling dependency version
 * automatically choose scala version
+* travis: verify and tag liblings that build
 
 
 Template license
