@@ -13,7 +13,7 @@ In `build.sbt`
 
     sourceDependencies += Dependency(
         Version("<git commit hash>"), 
-        Repository(uri("<git repository uri>")))
+        Repositories(uri("<git repository uri>")))
 
 ## structure
 
