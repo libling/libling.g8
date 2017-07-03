@@ -7,7 +7,9 @@ In your sbt project:
 In `project/plugins.sbt`
 
     resolvers += Resolver.bintrayIvyRepo("jastice","sbt-plugins")
-    addSbtPlugin("libling" % "sbt-hackling" % "0.3.0")
+    resolvers += Resolver.bintrayRepo("jastice","maven")
+
+    addSbtPlugin("libling" % "sbt-hackling" % "0.3.1")
 
 In `build.sbt`
 
