@@ -1,3 +1,3 @@
 resolvers += Resolver.bintrayIvyRepo("jastice","sbt-plugins")
 
-addSbtPlugin("libling" % "sbt-hackling" % "0.2.1")
+addSbtPlugin("libling" % "sbt-hackling" % "0.3.0")

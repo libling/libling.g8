@@ -7,12 +7,18 @@ In your sbt project:
 In `project/plugins.sbt`
 
     resolvers += Resolver.bintrayIvyRepo("jastice","sbt-plugins")
-    addSbtPlugin("libling" % "sbt-hackling" % "0.2.1")
+    addSbtPlugin("libling" % "sbt-hackling" % "0.3.0")
 
 In `build.sbt`
 
+    // version as commit hash
     sourceDependencies += Dependency(
-        Version("<git commit hash>"), 
+        HashVersion("<git commit hash>"), 
+        Repositories(uri("<git repository uri>")))
+
+    // version as tag or branch name
+    sourceDependencies += Dependency(
+        NameVersion("<git tag or branch>"), 
         Repositories(uri("<git repository uri>")))
 
 ## structure
