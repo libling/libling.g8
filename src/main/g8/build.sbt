@@ -9,6 +9,12 @@ enablePlugins(HacklingLibraryPlugin)
 //libraryDependencies += "org.specs2" %% "specs2-core" % "3.8.9" % "test"
 
 // depend on other liblings
+// by commit hash
 //sourceDependencies += Dependency(
-//  Version("<git commit hash>"),
+//  HashVersion("<git commit hash>"),
 //  Repositories(uri("<git repository uri>")))
+
+// by branch or tag name
+//sourceDependencies += Dependency(
+//    NameVersion("<git tag or branch>"),
+//    Repositories(uri("<git repository uri>")))
